@@ -1,0 +1,2 @@
+arm-poky-linux-gnueabi-gcc main.c decode_stream.c vpu_wrapper.c  /home/zhoujie/data_structure/ring_buffer/ring_buffer.c  -o myplay -I/home/zhoujie/data_structure/ring_buffer -L/usr/local/lib  -lvpu -liconv -lts  -lavcodec -lswscale -lswresample -lavdevice -lavfilter -lavformat -lavutil -L/opt/poky/1.5/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/lib/ -lm -lpthread -I/usr/local/include 
+cp myplay /home/zhoujie/Image/rootfs_fb_mx63
